@@ -1,0 +1,20 @@
+package org.tnsindia.userinput;
+
+import java.util.Scanner;
+
+
+		
+public class DemoOnDouble {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner (System.in);
+		System.out.println("Enter the value of x: ");
+		float x=s.nextFloat();
+		System.out.println("The result is: ");
+		System.out.println(x);
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
