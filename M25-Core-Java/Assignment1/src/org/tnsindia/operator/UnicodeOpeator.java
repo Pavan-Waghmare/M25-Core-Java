@@ -1,0 +1,15 @@
+package org.tnsindia.operator;
+
+//Example on Unicode
+import java.util.Scanner;
+
+public class UnicodeOpeator {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		char c='\u002D';
+		System.out.println((int)c);
+		s.close();
+
+	}
+}
