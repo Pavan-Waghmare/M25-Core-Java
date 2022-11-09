@@ -1,4 +1,4 @@
-package org.tnsindia.application;
+package org.tnsindia.appication;
 
 import org.tnsindia.framework.PrimeAcc;
 
