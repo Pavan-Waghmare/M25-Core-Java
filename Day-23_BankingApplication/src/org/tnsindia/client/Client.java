@@ -14,8 +14,8 @@ public class Client {
 	public static void main(String[] args) {
 		
 		BankFactory b=new MMBankFactory();
-		SavingAccount s=new MMSavingAccount(1111, "Pavan Waghmare", 10000, true);
-		CurrentAccount c=new MMCurrentAccount(2222, " Sheetal Agri", 20000, 1500);
+		SavingAccount s=new MMSavingAccount(1234, "Pavan Waghmare", 5000, true);
+		CurrentAccount c=new MMCurrentAccount(5678, " Sunil Wagh", 1000, 500);
 		System.out.println();
 		System.out.println("Saving Account is : "); 
 		s.withdraw(s.getAccBal());
